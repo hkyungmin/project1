@@ -1,0 +1,326 @@
+@font-face {font-family: 'NotoSansCJKkr-Light';
+src: url("font/NotoSansCJKkr-Light.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-Regular';
+src: url("font/NotoSansCJKkr-Regular.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-Medium';
+src: url("font/NotoSansCJKkr-Medium.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-DemiLight';
+src: url("font/NotoSansCJKkr-DemiLight.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-Bold';
+src: url("font/NotoSansCJKkr-Bold.otf") format("opentype");}
+@font-face {font-family: 'NotoSansCJKkr-Black';
+src: url("font/NotoSansCJKkr-Black.otf") format("opentype");}
+
+
+*{padding: 0; margin: 0}
+.inner{max-width: 1294px; margin: 0 auto}
+ul{list-style: none}
+h1, h2, h3, h4, h5, h6{font-weight: normal}
+.space{clear: both}
+
+.top_header{width: 100%; height: 40px; font-size: 13px; color: #333333;font-family: NotoSansCJKkr-DemiLight;}
+.top_header a{color: #333; text-decoration: none}
+.menu1{width: 224px; float: left;padding-left: 6px; line-height: 40px}
+.inner .menu1 li{float: left; padding-right: 52px}
+.inner .menu1 li:nth-child(3){padding-right: 0}
+.menu2{width:226px; float: right; padding-right: 7px;line-height: 40px}
+.menu2 li{float: left; padding-right: 27px}
+.menu2 li:nth-child(3){padding-right: 0}
+
+
+
+/*메뉴링크*/
+
+
+.back{ width: 100%; height: 94px; background-color: #196ab3;position: absolute; top:40px}
+nav{width: 100%; position:absolute; top:40px;left: 0; right: 0 ; margin: 0 auto;}
+.menu3, .logo,.menu4{float: left}
+.menu3{width: 42%; }
+.logo {width: 14%;margin: 0 1%;padding-top: 28px}
+.menu4{width: 42%; text-align: right}
+
+nav .mainmenu.menu3>li,
+nav .mainmenu.menu4>li{width:  33.3%;text-align: center;float: left;;box-sizing: border-box;}
+nav .mainmenu>li>a{font-size:16px; display:block;;font-weight:bold; transition:all 0.5s;color: #fff; text-decoration: none;padding: 36px}
+nav .mainmenu > li:hover > a{; color:#fff;}
+nav .submenu{background-color:rgba(0,0,0,0.8); display:none;;width:100%;position: absolute;left: 0}
+nav .submenu li {width: 16%; float: left  }
+
+nav .submenu a{display:block; padding:10px 0;transition:all 0.5s;}
+nav .submenu li a{color: #fff;text-decoration: none;}
+nav .submenu li:hover a{background-color:#fff; color:#333;}
+nav .submenu li:after{content: ''; display: block; clear: both}
+
+
+/*메뉴링크 끝*/
+
+#mainimg{background-image: url(../img/mainimg.jpg); width: 100%; height: 640px; background-size: cover; background-repeat: no-repeat; background-position: center center;margin-top: 94px;}
+
+.mainimg_set{width: 100%; ; top:98px; left: 101px; right: 101px; margin: 0 auto}
+.prev{width: 80px; height: 79px; float: left;padding-top: 192px; padding-right: 75px;}
+
+.poster_set{width:100%; height: 465px; float: left;}
+.poster_set .poster1, .poster_set .poster2, .poster_set .poster3, .poster_set .poster4{width:20%; height: 465px; float: left; padding-right: 5%}
+.poster_set .poster4{padding-right: 0}
+
+.next{width: 80px; height: 79px;float: left;padding-top: 192px; padding-left: 66px;}
+
+
+
+
+.poster_btn{padding-top: 50%}
+.poster_btn div {width: 150px; height: 50px; border: 1px solid #fff; text-align: center; line-height: 50px;  margin: 0 auto;margin-top: 2%}
+.poster_btn div:nth-child(1){margin-top: 0}
+.poster_btn div a{color: #fff}
+
+/* 메인이미지 포스터 롤오버 효과 */
+.poster1, .poster2, .poster3, .poster4{position: relative; overflow: hidden}
+.hover{position: absolute; width: 100%; height: 100% ;background-color: rgba(0,0,0,0.7); top: 0px ; color: #fff; transform: translate(0, 465px) ;transition: all 0.5s }
+.poster1:hover .hover, .poster2:hover .hover, .poster3:hover .hover,.poster4:hover .hover {transform: translate(0,0)}
+
+
+
+/* 메인이미지 포스터 롤오버 효과 끝 */
+.event{width: 1294px; height: 1111px; ; margin: 0 auto; }
+.event_title {padding-top: 111px; padding-bottom: 101px;position: relative; height: 34px}
+.event_title:before{width: 1280px; height:2px; background-color: #333333; position: absolute; content: "";display: inline-block; top:127px}
+.event_title h2{ width: 282px; height: 34px; background-color: #fff; text-align: center; position: absolute; left: 505px;font-family: NotoSansCJKkr-Bold;}
+
+
+.event_set{width: 1051px; height: 504px;  ; padding-left: 126px}
+
+
+.event_set1, .event_set2, .event_set3{float: left; padding-right: 60px}
+.event_set div:nth-child(3){padding-right: 0}
+
+
+
+.event .tabSet{
+	margin-bottom:30px;
+}
+/*ul{
+	overflow:hidden;
+	padding:20px 20px 0;
+	background-color:#31374c;
+}*/
+   .event .tabs{width: 100%; margin: 0 auto}
+	.event ul li{
+       width:33%;
+		float:left;
+		padding:0 2px 0 0;
+		list-style-type:none;
+	}
+   .event ul li img{width: 100%;}
+		.event ul li a{
+			float:left;
+			color:#fff;
+			/*background:#0b1023;*/
+			padding:.5em 2.75em;
+			display:none;
+			border-radius:3px 3px 0 0;
+			font-weight:bold;
+			font-size:14px;
+			text-decoration:none;
+		}
+		.event ul li a:hover{
+			text-decoration:underline;
+		}
+		.event ul li a.on{
+			background:#fff;
+			cursor:default;
+			color:#31374c;
+		}
+		.event ul li a.on:hover{
+			text-decoration:none;
+		}
+.event .panels{
+	background:#fff;
+	min-height:180px;
+}
+.event .panel{
+	padding:30px 30px;
+	font-size:14px;
+	color:#4d4d4d;
+}
+        
+.e_detail{ background-color: #196ab3; width:100%; height: 130px; border-radius:4px; position: relative; color: #fff; }
+.ribbon, .text_box, .sidebar, .download{float: left}
+.ribbon{position: absolute; left: -3px; bottom: -6px}
+.text_box{width: 70%; padding-left: 7%;box-sizing: border-box}
+.text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black}
+.text_box p{color: #a5bcda; font-size: 13px; padding-top: 21px;font-family: NotoSansCJKkr-Medium}
+.text_box p span:nth-child(1){padding-right:23px; }
+.sidebar{width: 1px; height: 90px; border-right: 1px solid #5792c8 ; opacity: 0.3; margin-top: 20px;margin-left: 5%}
+.download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: NotoSansCJKkr-Bold;}
+.tabs:after{content: '';display: block;clear: both}
+
+
+.e_detail:after{content: '';display: block; clear: both}
+
+
+.service{width: 100%; height: ; background-color: #f8f8f8; color: #999999 ;font-family: NotoSansCJKkr-Medium}
+.icons {padding: 106px 0}
+.icons li {width: 16%; text-align: center; float: left; }
+.icons li p{padding-bottom: 20px}
+
+
+/* 아이콘 트랜스폼 효과*/
+.icons li img{transform: scale(1);transition: all 0.3s}
+.icons li:hover img{transform: scale(1.2)}
+/* 아이콘 트랜스폼 효과 끝*/
+
+.bestdownload h2{text-align: center; padding-top: 120px; font-size: 35px; color: #333333 ;font-family: NotoSansCJKkr-Bold;}
+.download_set{width: 969px ; height: 496px; margin: 0 auto; padding-top: 50px; padding-bottom: 170px}
+.download_set div:nth-child(1), .download_set div:nth-child(2), .download_set div:nth-child(3){width: 249px; float: left; padding-right: 111px; padding-bottom: 149px}
+.download_set div:nth-child(3){padding-right: 0}
+.download_set div h3{padding-top: 41px ; font-size: 21px;color: #333333;font-family: NotoSansCJKkr-Bold;}
+.download_set div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: NotoSansCJKkr-Regular }
+
+
+.magazine{width: 100%; height: 570px; background-image: url(../img/magazine_img.jpg) ; background-repeat: no-repeat; background-size: cover; background-position: center center;  color: #fff}
+.magazine h2 {font-size: 35px; text-align: center; padding-top: 110px;font-family: NotoSansCJKkr-Bold;}
+.magazine_set {width: 718px ;padding-top: 152px; margin: 0 auto}
+.magazine_set div{width: 82px ; float: left; padding-right: 130px; text-align: center}
+.magazine_set div:nth-child(4){padding-right: 0}
+.magazine_set div p{padding-top: 41px; font-size:20px; font-family: NotoSansCJKkr-Medium}
+
+/* 매거진 트랜스폼 효과*/
+.magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
+.magazine_set>div:hover>i>img{transform: scale(1.2)}
+/* 매거진 트랜스폼 효과 끝*/
+
+/*.preview{width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;color: #fff}*/
+/*.btn_set{width: 100%; text-align: center; padding-top: 87px;color: #fff}*/
+/*슬라이드 버튼 수정*/
+
+.btn_set{width: 100%; position: absolute; top:20%; text-align: center; /*right: 40%; left: 40%;*/ margin: 0 auto; color: #fff}
+
+.btn_set .name{font-size: 33px; ; font-family: NotoSansCJKkr-Regular}
+.btn_set .info{font-size:13px;  font-family: NotoSansCJKkr-Light}
+
+.notice p{width: 1294px; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-family: NotoSansCJKkr-DemiLight;}
+.notice p span{ padding-right: 76px; color: #333333 }
+
+
+
+#footer{width: 100%; height: 295px; background-color: #dfdfdf;font-family: NotoSansCJKkr-DemiLight;}
+.top_footer ul li{float: left; padding: 35px 58px 0 0; font-size: 12px;color: #999999;}
+.top_footer ul li:nth-child(1){ padding-left: 6px}
+.f_logo, .copy_right, .service_center{float: left}
+
+
+.f_logo{width: 217px; padding: 71px 0 0 27px }
+.copy_right{ width: 517px; line-height: 27px; font-size: 12px;color: #999999; padding: 68px 0 0  0}
+.copy_right ul li {position: relative; padding-left: 115px}
+.copy_right ul li span{position: absolute; left:0 }
+
+.copy_right p{padding-top: 36px}
+.service_center{width:255px; float: left; padding: 71px 0 0 0; color: #333333}
+.service_center>p:nth-child(1)>span:nth-child(1){font-size:12px; padding-right: 10px}
+.service_center>p:nth-child(1)>span:nth-child(2) {font-size: 17px}
+.service_center>p:nth-child(2) {font-size: 12px; color: #a8a8a8; padding-top: 12px; line-height: 15px}
+
+
+
+
+/* sub_1 */
+.menu5{width:100% ; height: 44px; color: #a5a7aa; font-size: 15px; font-family: NotoSansCJKkr-DemiLight;}
+.menu5 li{float: left; line-height: 44px; padding-right: 68px}
+.menu5 li i {padding-left: 5px; vertical-align: top}
+.menu5 li:nth-child(1){padding-left: 87px }
+.menu5 li:nth-child(3){padding-right: 0 }
+.menu5 li a{color: #a5a7aa}
+
+.advertise{width: 100%; height: 461px; background-color: #406150;}
+.advertise .inner{position: relative}
+.ad_img{width: 1271px; height: 424px; position: absolute; top:37px; left: 16px}
+.ad_preview{position: absolute; width: 569px; height: 310px;  top:240px; left: 362px; right: 362px; margin: 0 auto }
+.start_btn{position: absolute; width: 80px; height: 79px; top:361px;left: 40%; right: 40%; margin: 0 auto}
+
+
+.sub_1_contents{height: 1695px;background-color: #f8f8f8}
+
+.reserve_title{font-size: 23px; padding: 352px 0 21px 7px ;color: #333333;font-family: NotoSansCJKkr-Medium }
+.reserve_title li{float: left}
+.reserve_title li:nth-child(1){width: 427px}
+.reserve_title li:nth-child(2){width: 427px}
+.reserve_title li:nth-child(3){width: 283px; }
+.reserve_title li:nth-child(4){width: 142px; height: 22px; border: 1px solid #999999; font-size: 10px; line-height: 22px; text-align: center; background-color: #fff; color: #999999}
+.reserve_title li:nth-child(4) i{padding-right: 17px;}
+.reserve_title li i img{vertical-align: middle}
+.reserve_title li:nth-child(4) a{color: #999}
+
+.reserve {width: 1281px; height: 540px ; background-image: url(../img/reserve_1.jpg);margin-left: 7px;}
+.time {width: 1281px; height: 106px ; background-image: url(../img/time.jpg); margin-top: 5px;margin-left: 7px}
+
+.sub_1_contents h2{padding: 63px 0 21px 7px;font-family: NotoSansCJKkr-Medium; }
+.card, .ticket{width: 623px; height: 310px; background-color: #fff; border: 1px solid #999999; text-align: center;color: #333333}
+.card{float: left;margin-left: 7px}
+.ticket{float:right; margin-right: 7px}
+.card .set, .ticket .set{padding-top: 54px}
+.set h3{padding-top: 28px; font-size: 25px; font-family: NotoSansCJKkr-Medium;}
+.set p{padding-top: 13px; font-size: 22px;font-family: NotoSansCJKkr-Regular}
+.s_btn1, .s_btn2{width: 108px; height: 40px; border: 1px solid #999999; margin: 0 auto ; margin-top: 30px; text-align: center; line-height: 40px; font-size: 13px;font-family: NotoSansCJKkr-Regular}
+
+/* 할인혜택 롤오버 효과*/
+.s_btn1:hover, .s_btn2:hover{width: 108px; height: 40px; background-color: #6699cc; color: #fff; transition: all 0.3s}
+/* 할인혜택 롤오버 효과 끝*/
+
+.s_btn3{width: 212px; height: 60px; background-color: #6699cc; color: #fff; line-height: 60px; text-align: center; margin: 0 auto; margin-top: 50px;font-family: NotoSansCJKkr-Regular}
+
+
+/*sub2*/
+
+
+
+
+
+/*sub3*/
+
+
+
+
+
+
+
+
+
+/*sub4*/
+
+
+
+
+
+
+
+
+/*sub5*/
+
+
+
+
+
+
+
+
+/*sub6*/
+
+/*메인 포스터 미니 슬라이드 */
+#slide_banner>img{border:none 0;vertical-align:top;}
+#banner_wrap{position:relative;margin:0 auto; top:15%}
+#slide_banner {text-align: center}
+/*#slide_banner img{width:100%}*/
+#prevBtn{position:absolute;left:-7%;top:40%}
+#nextBtn{position:absolute;right:-7%;top:40%;}
+#mainimg .bx-wrapper{width: 100%; margin: 0 auto}
+
+/*프리뷰 슬라이드 */
+
+.bxslider > div >img {width:100%;} /*수정*/
+
+
+/*.preview .bxslider>div:nth-child(1){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.preview .bxslider>div:nth-child(2){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+.preview .bxslider>div:nth-child(3){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+.preview .bxslider>div:nth-child(4){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;} 없애기 */
+

@@ -433,6 +433,15 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
     
     #mainimg{background-image: url(../img/mainimg_mo.jpg); width: 100%; height: auto; background-size: cover; background-repeat: no-repeat; background-position: center center;;}
     
+    
+       .event ul li{
+       width:100%;
+		float:left;
+		padding:0 2px 0 0;
+		list-style-type:none;
+	}
+    .event .tabs li:nth-child(2),.event .tabs li:nth-child(3){display: none}
+    
 }
 
 
@@ -451,13 +460,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
     
     .mo_bottom_header .open1 {width: 21px; height: 50px;position: absolute; margin-left: 1%; display: block;top:0; display:block}
     
-    .event ul li{
-       width:100%;
-		float:left;
-		padding:0 2px 0 0;
-		list-style-type:none;
-	}
-    .event .tabs li:nth-child(2),.event .tabs li:nth-child(3){display: none}
+ 
     
 }
 

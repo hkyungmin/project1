@@ -6,11 +6,14 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
      <link rel="shortcut icon" href="img/project1.ico" >
     <link rel="stylesheet" href="css/jquery.bxslider.css">
-    
+         <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     
      <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.4.1.js"></script>
     <script src="js/jquery.bxslider.js"></script>
         <script src="js/common.js"></script>
+    <script src="js/slick.js"></script>
             <script src="js/main.js"></script>
     
  
@@ -38,7 +41,7 @@
                 </div>
             </div>
             <!-- 바텀 헤더 -->
-           <div class="back mo_back"></div>
+           <div class="back">
     <nav class="bottom_header inner">
       
            
@@ -91,9 +94,12 @@
         
     </nav>
        
-       <nav class="mo_bottom_header inner">
+       
+       
+  
+      <nav class="mo_bottom_header inner">
        <p class="open1"><span></span><span></span><span></span></p>
-       <div class="mo_logo">
+       <div class="logo">
        <a href="index.html"><img src="img/redesign_logo.png" alt="로고"></a>
         </div>
              <ul class="mo_main">
@@ -222,112 +228,105 @@
     </nav> 
        
        
-       
+       </div>
         </div>
+   
         <!-- 헤더끝 -->
         <!-- 메인이미지 시작-->
         <div id="mainimg">
-         
-         
-          <!-- 메인 포스터 슬라이드 -->
-             <div id="banner_wrap" class="inner">
-      <ul id="slide_banner">
-         <li><a href="#">
-           <div class="poster1"><img src="img/main_poster1.jpg" alt="poster1">
-            <div class="hover">
+
+    <section class="inner regular slider">
+    
+    <div class="poster1">
+      <img src="img/main_poster1.jpg">
+        <div class="hover">
                <div  class="poster_btn">
                    <div><a href="sub_1.html">예매하기</a></div>
                    <div><a href="sub_1.html">주요정보</a></div>
                 </div>
-            </div>
-            </div>
-            </a></li>
-         <li>
-             <a href="#">
-           <div class="poster2"><img src="img/main_poster2.jpg" alt="poster2">
-            <div class="hover">
+               </div>
+    </div>
+    <div class="poster2">
+      <img src="img/main_poster2.jpg">
+      <div class="hover">
                <div  class="poster_btn">
                    <div><a href="sub_1.html">예매하기</a></div>
                    <div><a href="sub_1.html">주요정보</a></div>
                 </div>
-            </div>
-            
-            </div>
-            </a></li>
-         <li><a href="#">
-           <div class="poster3"><img src="img/main_poster3.jpg" alt="poster3">
-            <div class="hover">
+               </div>
+    </div>
+    <div class="poster3">
+      <img src="img/main_poster3.jpg">
+      <div class="hover">
                <div  class="poster_btn">
                    <div><a href="sub_1.html">예매하기</a></div>
                    <div><a href="sub_1.html">주요정보</a></div>
                 </div>
-            </div>
-            
-            </div></a></li>
-         <li><a href="#">
-           <div class="poster4"><img src="img/main_poster4.jpg" alt="poster3">
-            <div class="hover">
+               </div>
+    </div>
+    <div class="poster4">
+      <img src="img/main_poster4.jpg">
+      <div class="hover">
                <div  class="poster_btn">
                    <div><a href="sub_1.html">예매하기</a></div>
                    <div><a href="sub_1.html">주요정보</a></div>
                 </div>
-            </div>
-            
-            </div></a></li>
-       
-         
-      </ul>
-      <p><a href="#" id="prevBtn"><img src="img/prev_btn.png" alt="btn1"></a></p>
-      <p><a href="#" id="nextBtn"><img src="img/next_btn.png" alt="btn2"></a></p>
+               </div>
+    </div>
+        <div class="poster1">
+      <img src="img/main_poster1.jpg">
+      <div class="hover">
+               <div  class="poster_btn">
+                   <div><a href="sub_1.html">예매하기</a></div>
+                   <div><a href="sub_1.html">주요정보</a></div>
+                </div>
+               </div>
+    </div>
+    <div class="poster2">
+      <img src="img/main_poster2.jpg">
+      <div class="hover">
+               <div  class="poster_btn">
+                   <div><a href="sub_1.html">예매하기</a></div>
+                   <div><a href="sub_1.html">주요정보</a></div>
+                </div>
+               </div>
+    </div>
+    <div class="poster3">
+      <img src="img/main_poster3.jpg">
+      <div class="hover">
+               <div  class="poster_btn">
+                   <div><a href="sub_1.html">예매하기</a></div>
+                   <div><a href="sub_1.html">주요정보</a></div>
+                </div>
+               </div>
+    </div>
+    <div class="poster4">
+      <img src="img/main_poster4.jpg">
+      <div class="hover">
+               <div  class="poster_btn">
+                   <div><a href="sub_1.html">예매하기</a></div>
+                   <div><a href="sub_1.html">주요정보</a></div>
+                </div>
+               </div>
+    </div>
+
+
+   
+
+  </section>
+    
+  </div>
+
+     
+      
    </div>
-          <!--기존 태그
-           <div class="mainimg_set">
-            <div class="prev"><img src="img/prev_btn.png" alt="btn1"></div>
-            <div class="poster_set">
-            <div class="poster1"><img src="img/main_poster1.jpg" alt="poster1">
-            <div class="hover">
-               <div  class="poster_btn">
-               <div><a href="sub_1.html">예매하기</a></div>
-                <div><a href="sub_1.html">주요정보</a></div>
-                </div>
-            </div>
-            </div>
-            <div class="poster2"><img src="img/main_poster2.jpg" alt="poster2">
-            <div class="hover">
-               <div  class="poster_btn">
-               <div><a href="sub_1.html">예매하기</a></div>
-                <div><a href="sub_1.html">주요정보</a></div>
-                </div>
-            </div>
-            
-            </div>
-            <div class="poster3"><img src="img/main_poster3.jpg" alt="poster3">
-            <div class="hover">
-               <div  class="poster_btn">
-               <div><a href="sub_1.html">예매하기</a></div>
-                <div><a href="sub_1.html">주요정보</a></div>
-                </div>
-            </div>
-            
-            </div>
-            <div class="poster4"><img src="img/main_poster4.jpg" alt="poster4">
-            <div class="hover">
-               <div  class="poster_btn">
-               <div><a href="sub_1.html">예매하기</a></div>
-                <div><a href="sub_1.html">주요정보</a></div>
-                </div>
-            </div></div>
-            <div class="space"></div>
-            </div>
-            <div class="next"><img src="img/next_btn.png" alt="btn2"></div>
-            </div>
-            -->
-            <div class="space"></div>
-        </div>
+      
+         
+
         <!-- 메인이미지 끝 -->
         <!-- 콘텐츠 시작 -->
         <div id="contents">
-            <div class="event">
+            <div class="event inner">
                 <div class="event_title">
                     <div class="bar"></div>
                     <h2>EVENT</h2>
@@ -452,8 +451,8 @@
                     </div>
                 </div>
             </div>
-            <div class="preview">
-            <!--  preview  슬라이드 시작 -->
+          <div class="preview">
+       
             
              <div class="bxslider">
         <div>
@@ -493,20 +492,13 @@
                 </div>
         </div>      
       </div>  
-            
+    
             <!-- preview 슬라이드 끝-->
-            <!-- 기존 태그 
-            
-                <div class="btn_set">
-                   <div><img src="img/start_btn.png" alt="starticon"></div>
-                   <p class="name">'페임'</p>
-                   <p class="info">화제의 개봉영화 예고편</p>
-                    
-                </div>
-          
+            <!-- 기존 태그 -->
             
             
-            -->
+            
+       
               </div>
             <div class="notice">
                 <p><span>공지사항</span>[알림] 롯데시네마 예매 시스템 점검(03/05)</p>
@@ -552,6 +544,7 @@
      </div>
         </div>
         <!-- 푸터 끝-->
+   
     </div>
 </body>
 </html>

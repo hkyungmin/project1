@@ -267,8 +267,8 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 /* 아이콘 트랜스폼 효과 끝*/
 
 .bestdownload h2{text-align: center; padding-top: 120px; font-size: 35px; color: #333333 ;font-family: NotoSansCJKkr-Bold;}
-.download_set{width: 969px ; height: 496px; margin: 0 auto; padding-top: 50px; padding-bottom: 170px}
-.download_set div:nth-child(1), .download_set div:nth-child(2), .download_set div:nth-child(3){width: 249px; float: left; padding-right: 111px; padding-bottom: 149px}
+.download_set{width:74% ; height: 496px; margin: 0 auto; padding-top: 50px; padding-bottom: 170px}
+.download_set div:nth-child(1), .download_set div:nth-child(2), .download_set div:nth-child(3){width:33.3%; float: left; ; padding-bottom: 149px}
 .download_set div:nth-child(3){padding-right: 0}
 .download_set div h3{padding-top: 41px ; font-size: 21px;color: #333333;font-family: NotoSansCJKkr-Bold;}
 .download_set div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: NotoSansCJKkr-Regular }
@@ -276,8 +276,8 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 .magazine{width: 100%; height: 570px; background-image: url(../img/magazine_img.jpg) ; background-repeat: no-repeat; background-size: cover; background-position: center center;  color: #fff}
 .magazine h2 {font-size: 35px; text-align: center; padding-top: 110px;font-family: NotoSansCJKkr-Bold;}
-.magazine_set {width: 718px ;padding-top: 152px; margin: 0 auto}
-.magazine_set div{width: 82px ; float: left; padding-right: 130px; text-align: center}
+.magazine_set {width: 80% ;padding-top: 152px; margin: 0 auto}
+.magazine_set div{width: 25% ; float: left; ; text-align: center}
 .magazine_set div:nth-child(4){padding-right: 0}
 .magazine_set div p{padding-top: 41px; font-size:20px; font-family: NotoSansCJKkr-Medium}
 
@@ -460,7 +460,30 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
     
     .mo_bottom_header .open1 {width: 21px; height: 50px;position: absolute; margin-left: 1%; display: block;top:0; display:block}
     
+    .icons {padding: 106px 0}
+.icons li {width: 33.3%; text-align: center; float: left; }
+.icons li p{padding-bottom: 20px}
  
+    
+    
+    
+    
+    
+    
+.magazine_set {width: 80% ;padding-top: 152px; margin: 0 auto}
+.magazine_set div{width: 50% ; float: left; ; text-align: center}
+
+
+/* 매거진 트랜스폼 효과*/
+.magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
+.magazine_set>div:hover>i>img{transform: scale(1.2)}
+/* 매거진 트랜스폼 효과 끝*/
+    
+    
+    
+    .download_set div:nth-child(1){width:100%; float: left; ; padding-bottom: 149px} 
+    .download_set div:nth-child(2), .download_set div:nth-child(3){width:33.3%; float: left; ; padding-bottom: 149px; display: none}
+    
     
 }
 

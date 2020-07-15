@@ -300,16 +300,20 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 
 
-#footer{width: 100%; height: 295px; background-color: #dfdfdf;font-family: NotoSansCJKkr-DemiLight;}
+#footer{width: 100%; height: auto; background-color: #dfdfdf; font-family: NotoSansCJKkr-DemiLight;}
+
 .top_footer ul li{float: left; padding: 35px 4% 0 0; font-size: 12px;color: #999999;}
 .top_footer ul li:nth-child(1){ padding-left: 6px}
 .f_logo, .copy_right, .service_center{float: left}
 
 
 .f_logo{width: 16%; padding: 71px 0 0 27px }
-.copy_right{ width: 39%; line-height: 27px; font-size: 12px;color: #999999; padding: 68px 0 0  0}
-.copy_right ul li {position: relative; padding-left: 115px}
-.copy_right ul li span{position: absolute; left:0 }
+.copy_right .adress{ line-height: 27px; font-size: 12px;color: #999999; padding: 68px 0 0 0 }
+.copy_right .adress li {position: relative; padding-left: 115px}
+.copy_right .adress li span{position: absolute; left:0 }
+
+.copy_right{width: 39%;}
+
 
 .copy_right p{padding-top: 36px}
 .service_center{width:19%; float: left; padding: 71px 0 0 0; color: #333333}
@@ -317,7 +321,16 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 .service_center>p:nth-child(1)>span:nth-child(2) {font-size: 17px}
 .service_center>p:nth-child(2) {font-size: 12px; color: #a8a8a8; padding-top: 12px; line-height: 15px}
 
+.mo_service_center{width:100%; padding: 71px 0 0 0; color: #333333;display: none}
+.mo_service_center>p:nth-child(1)>span:nth-child(1){font-size:12px; padding-right: 10px}
+.mo_service_center>p:nth-child(1)>span:nth-child(2) {font-size: 17px}
+.mo_service_center>p:nth-child(2) {font-size: 12px; color: #a8a8a8; padding-top: 12px; line-height: 15px}
 
+ .mo_adress{ width: 100%; line-height: 27px; font-size: 12px;color: #999999; padding: ;display: none;}
+ .mo_adress li{width: 100%; margin: 0 auto}
+ .mo_adress li span{float: left ;padding: 0 1%}
+
+.copy_right  p{padding-top: 36px;color: #a8a8a8;font-size: 12px; padding: 5% 0 }
 
 
 /* sub_1 */
@@ -436,6 +449,17 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 	}
     .event .tabs li:nth-child(2),.event .tabs li:nth-child(3){display: none}
     
+    
+    .f_logo{width: 16%; padding: 71px 0 0 27px; display:none  }
+
+    
+    .service_center{width:19%; float: left; padding: 71px 0 0 0; color: #333333; display: none}
+   .mo_service_center{width:100%;; padding: 71px 0 0 0; color: #333333;display: block}
+    
+    .copy_right .adress{ width: 39%; line-height: 27px; font-size: 12px;color: #999999; padding: 68px 0 0  0;display: none}
+    
+   .mo_adress{ width: 100%; line-height: 27px; font-size: 12px;color: #999999; padding: 68px 0 0  0;display: block}
+    
 }
 
 
@@ -479,6 +503,13 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
     .download_set div:nth-child(2), .download_set div:nth-child(3){width:33.3%; float: left; ; padding-bottom: 149px; display: none}
     
     
+    
+
+
+
+
+
+
 }
 
 

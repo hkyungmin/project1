@@ -20,12 +20,12 @@ h1, h2, h3, h4, h5, h6{font-weight: normal}
 
 .top_header{width: 100%; height: 40px; font-size: 13px; color: #333333;font-family: NotoSansCJKkr-DemiLight;}
 .top_header a{color: #333; text-decoration: none}
-.menu1{width: 224px; float: left;padding-left: 6px; line-height: 40px}
-.inner .menu1 li{float: left; padding-right: 52px}
-.inner .menu1 li:nth-child(3){padding-right: 0}
-.menu2{width:226px; float: right; padding-right: 7px;line-height: 40px}
-.menu2 li{float: left; padding-right: 27px}
-.menu2 li:nth-child(3){padding-right: 0}
+.top_header .menu1{width: 224px; float: left;padding-left: 6px; line-height: 40px}
+.top_header .inner .menu1 li{float: left; padding-right: 52px}
+.top_header .inner .menu1 li:nth-child(3){padding-right: 0}
+.top_header .menu2{width:226px; float: right; padding-right: 7px;line-height: 40px}
+.top_header .menu2 li{float: left; padding-right: 27px}
+.top_header .menu2 li:nth-child(3){padding-right: 0}
 
 
 
@@ -50,6 +50,70 @@ nav .submenu a{display:block; padding:10px 0;transition:all 0.5s;}
 nav .submenu li a{color: #fff;text-decoration: none;}
 nav .submenu li:hover a{background-color:#fff; color:#333;}
 nav .submenu li:after{content: ''; display: block; clear: both}
+
+
+
+
+/**모바일 버전 메뉴***/
+.mo_bottom_header{display: none}
+.mo_main .mo_sub{display: none}
+.mo_main{width: 60%;}
+.mo_main>li {width: 15%; float: left; text-align: center;}
+
+.mo_main>li .mo_sub{width: 100%;margin-top: 23px}
+
+.mo_logo{ ; text-align: center;}
+.mo_logo a img{margin: 16px 0 auto;}
+
+.open1 {width: 21px; height: 50px;position: absolute; margin-left: 1%; display: block; display: none}
+ .open1 span{width: 21px; height: 2px ; background-color: #fff; float: left; margin-top: 31px ; }
+ .open1 span:nth-child(1){margin-top:21px;}
+ .open1 span:nth-child(2){margin-top:5px;}
+ .open1 span:nth-child(3){margin-top:5px;}
+
+
+.LeftWrap{width:100%; height:100%; background: rgba(0,0,0,0.5); position:fixed; top:0; left:-100%; z-index:999;  }/*width를 퍼센트로 처리해서 서브 메뉴 나오는것도 퍼센트로 나오고 없어질 수 있도록 처리함 ,right 값을 0으로 해서 우선 디자인 후 다시 -100%처리함 새로고침할때마다 숨어서 보이게 한 후 작업! */
+/*.LeftWrap div{margin:30px 0 0 30px;}*/
+.LeftWrap #wrap_head {background-color: #fff; width: 300px;height: 100%; float: left; position: relative; padding: 0 0 0 10px}
+
+/*.close1{display:block; width:30px; height:30px; line-height:30px; font-size:2rem; font-weight:bold; color:#fff; border-radius:15px; text-align:center; text-decoration:none;  position:absolute; top:15px; right: -50px;}*/
+
+
+.close1 {width: 21px; height: 50px;position: absolute; display: block; z-index: 9999 ;right: 3%}
+ .close1 span{width: 21px; height: 2px ; background-color: #333; float: right; margin-top: 31px }
+ .close1 span:nth-child(1){margin-top:25px; transform: rotate(45deg)}
+ .close1 span:nth-child(2){margin-top:-2px;transform: rotate(-45deg)}
+
+
+#wrap_head .top_header{padding-top: 50px}
+
+.mo_wmain .mo_wsub{display: none}
+.mo_wmain{padding:50px}
+.mo_wmain ul{display:none}
+
+
+.mo_top_header{padding-top: 50px}
+.mo_top_header .menu1{; float: left;; line-height: 40px}
+.mo_top_header .inner .menu1 li{float: left; padding: 0 21px}
+
+.mo_top_header .menu2{; float: left; ;line-height: 40px}
+.mo_top_header .menu2 li{float: left;padding: 0 10px }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*메뉴링크 끝*/
@@ -324,3 +388,35 @@ nav .submenu li:after{content: ''; display: block; clear: both}
 .preview .bxslider>div:nth-child(3){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
 .preview .bxslider>div:nth-child(4){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;} 없애기 */
 
+
+
+
+/************반응형웹***************/
+@media all and (max-width:1105px){
+    
+
+ .bottom_header{width: 100%; position:absolute; top:40px;left: 0; right: 0 ; margin: 0 auto;display: none}
+.menu3, .logo,.menu4{float: left}
+.menu3{width: 42%; }
+.logo {width: 14%;margin: 0 1%;padding-top: 28px;display: none}
+.menu4{width: 42%; text-align: right}
+
+
+ .mo_bottom_header{display: block}  
+  
+    
+}
+
+
+@media all and (max-width:740px){
+    
+    
+.top_header{width: 100%; height: 40px; font-size: 13px; color: #333333;font-family: NotoSansCJKkr-DemiLight;background-color: #196ab3; display: none}
+.top_header a{color: #333; text-decoration: none; display: none}
+
+    
+  .open1 {width: 21px; height: 50px;position: absolute; margin-left: 1%; display: block; display:block}
+.back{ width: 100%; height: 96px; background-color: #196ab3;position: absolute; top:0px}
+ nav{width: 100%; position:absolute; top:0px;left: 0; right: 0 ; margin: 0 auto;}
+
+}

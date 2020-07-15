@@ -22,8 +22,16 @@ $(function(){
       slideMargin:20,      // 슬라이드간의 간격을 설정합니다.
       auto:true,             // 자동으로 흐를지 설정합니다.
       autoHover:true,    // 마우스 오버시 정시킬지 설정합니다.
-      controls:false        // 이전 다음 버튼 노출 여부 설정합니다.
+      controls:false,        // 이전 다음 버튼 노출 여부 설정합니다.
+       
+          
    });
+    
+    
+
+    
+    
+    
 //이전 버튼을 클릭하면 이전 슬라이드로 전환됩니다.
    $("#prevBtn").on("click",function(){
     mySlider.goToPrevSlide();  //이전 슬라이드 배너로 이동됩니다.
@@ -59,7 +67,31 @@ $(function(){
     
     
     
+     $(".open1").click(function(){
+		$(".LeftWrap").animate({left:0},500,"swing")
+		});
+			
+	$(".close1").click(function(){
+		$(".LeftWrap").animate({left:'-100%'},500,"swing")
+		});
+		
+	$('.mo_wmain > li').each(function() {
+      var submenu = $(this).find('.mo_wsub');
+      $(this).click(function(){
+          $('.mo_wsub').slideUp();//선택한 하나만 열리고 나머지는 닫힐 수 있도록 
+         $(submenu).stop().slideToggle();
+       })
+	})  
+     
     
+     $('.mo_main > li').each(function() {
+      var submenu = $(this).find('.mo_sub');
+      $(this).click(function(){
+       $('.mo_sub').slideUp();
+         $(submenu).stop().slideToggle();
+       })
+	})  
+     
     
     
     

@@ -106,7 +106,7 @@
 .tabs .slick-arrow.slick-prev
 {
  
-    left: 30px; !important
+    left: 20px; !important
 }
 [dir='rtl'] .tabs .slick-arrow.slick-prev
 {
@@ -116,8 +116,8 @@
 .tabs .slick-arrow.slick-prev:before
 {
       content: '〈';
-        color:#000;
-font-size: 30px; font-weight: bold;color: #fff
+    
+font-size: 30px; font-weight: bold;color: #333
 }
 [dir='rtl'].tabs .slick-arrow.slick-prev:before
 {
@@ -126,7 +126,7 @@ font-size: 30px; font-weight: bold;color: #fff
 
 .tabs .slick-arrow.slick-next
 {
-    right:30px;!important
+    right: 20px;!important
 }
 [dir='rtl'] .tabs .slick-arrow.slick-next
 {
@@ -137,8 +137,8 @@ font-size: 30px; font-weight: bold;color: #fff
 {
     
     content: '〉';
-    color:#000;
-    font-size: 30px; font-weight: bold;color: #fff
+ 
+    font-size: 30px; font-weight: bold;color: #333
 }
 [dir='rtl'].tabs .slick-arrow.slick-next:before
 {

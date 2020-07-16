@@ -17,7 +17,7 @@ src: url("font/NotoSansCJKkr-Black.otf") format("opentype");}
 ul{list-style: none}
 h1, h2, h3, h4, h5, h6{font-weight: normal}
 .space{clear: both}
-body{overflow-x: hidden; font-size: }
+body{overflow-x: hidden;  }
 
 .top_header{width: 100%; height: 40px; font-size: 13px; color: #333333;font-family: NotoSansCJKkr-DemiLight;}
 .top_header a{color: #333; text-decoration: none}
@@ -248,12 +248,18 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 		float:left;
 		padding:0 2px 0 0;
 		list-style-type:none;
+       
 	}
    .event .tabs li img{width: 100%; }
-		.event ul li a{
+.event .tabs li a{outline: none}
+.event .tabs li a.on{outline: none}
+
+
+
+		/*.event ul li a{
 			float:left;
 			color:#fff;
-			/*background:#0b1023;*/
+			/*background:#0b1023;
 			padding:.5em 2.75em;
 			display:none;
 			border-radius:3px 3px 0 0;
@@ -268,10 +274,13 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 			background:#fff;
 			cursor:default;
 			color:#31374c;
+             
+            
 		}
 		.event ul li a.on:hover{
 			text-decoration:none;
-		}
+      
+		}*/
 .event .panels{
 	background:#fff;
 	min-height:180px;

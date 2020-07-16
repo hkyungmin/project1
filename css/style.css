@@ -344,7 +344,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 #footer{width: 100%; background: #dfdfdf}
 #footer .top_footer {width:100%; }
-#footer .top_footer p{; float: left; padding: 35px 2% 0 2%; font-size: 12px;color: #999999; }
+#footer .top_footer p{; float: left; padding: 35px 0 0 0; font-size: 12px;color: #999999; }
 #footer .top_footer:after{content: '';display: block; clear: both}
 
 #footer .bottom_footer{width: 100%;padding-top: 68px;}

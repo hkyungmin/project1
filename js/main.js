@@ -151,7 +151,7 @@ $(function(){
     
     
     
-    $(window).resize(function(){    location.reload();         
+  $(window).resize(function(){    /*location.reload();*/         
    if ($(window).width() > 740) {
        
         $(".regular").slick({
@@ -171,8 +171,7 @@ $(function(){
     }
  
 })
-    
-    
+      
     
     
     

@@ -151,23 +151,23 @@ $(function(){
     
     
     
-  $(window).resize(function(){    /*location.reload();*/         
+  $(window).resize(function(){location.reload();        
    if ($(window).width() > 740) {
        
-        $(".regular").slick({
+        /*$(".regular").slick({
         dots: false,
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1
-      });
+      });*/
     }else{
         
-     $(".regular").slick({
+     /*$(".regular").slick({
         dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1
-      });    
+      });  */  
     }
  
 })

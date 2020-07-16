@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 200px;
+    top: 50%;
 
     display: block;
 
@@ -85,7 +85,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 300px;
+    top: 300px;!important
 
     display: block;
 

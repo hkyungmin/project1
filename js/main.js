@@ -89,7 +89,7 @@ $(function(){
                  
   
 //이전 버튼을 클릭하면 이전 슬라이드로 전환됩니다.
-   $("#prevBtn").on("click",function(){
+   /*$("#prevBtn").on("click",function(){
     mySlider.goToPrevSlide();  //이전 슬라이드 배너로 이동됩니다.
     return false; //<a>에 링크를 차단합니다.
    });
@@ -98,7 +98,7 @@ $(function(){
     mySlider.goToNextSlide();  //다음 슬라이드 배너로 이동됩니다.
     return false;
    }); 
-    
+    */
     
     
     

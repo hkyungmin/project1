@@ -151,9 +151,9 @@ $(function(){
     
     
     
-  $(window).resize(function(){location.reload();        
+  $(window).resize(function(){       
    if ($(window).width() > 740) {
-       
+       location.reload()
         /*$(".regular").slick({
         dots: false,
         infinite: true,

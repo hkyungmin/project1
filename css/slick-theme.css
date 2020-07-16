@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top: 200px;
 
     display: block;
 
@@ -78,13 +78,37 @@
 }
 
 /********************/
+.tabs .slick-arrow.slick-prev,
+.tabs .slick-arrow.slick-next
+{
+    font-size: 0;
+    line-height: 0;
 
-.tabs .slick-prev
+    position: absolute;
+    top: 300px;
+
+    display: block;
+
+   /*width: 50px;
+    height:50px;*/
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.tabs .slick-arrow.slick-prev
 {
  
     left: 30px; !important
 }
-[dir='rtl'] .tabs .slick-prev
+[dir='rtl'] .tabs .slick-arrow.slick-prev
 {
     right: 0px;
     left: auto;
@@ -249,4 +273,14 @@ font-size: 30px; font-weight: bold;color: #fff
 {
     opacity: .75;
     color: black;
+}
+@media all and(max-width:1100px){
+    
+
+   .slick-prev
+{width: 40px;
+    z-index: 999;
+    left: -60px;
+} 
+    
 }

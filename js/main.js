@@ -153,7 +153,11 @@ $(function(){
     
   $(window).resize(function(){    location.reload();        
    if ($(window).width() > 740) {
-      $('.tabSet').each(function(){
+      
+  
+    }else{
+         
+    $('.tabSet').each(function(){
         var anchors = $(this).find('.tabs a');
         var panelDivs = $(this).find('.panel');
         var lastAnchor;
@@ -196,11 +200,7 @@ $(function(){
            lastPanel = currentPanel;
         })
         
-    })  
-  
-    }else{
-         
-     
+    })   
        
     }
  

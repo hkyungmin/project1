@@ -24,6 +24,7 @@ ul.bxslider {
 .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
+
 }
 /** THEME
 ===================================*/
@@ -40,6 +41,7 @@ ul.bxslider {
   position: absolute;
   bottom: 10px;
   width: 100%;
+    display: none
 }
 /* LOADER */
 .bx-wrapper .bx-loading {

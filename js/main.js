@@ -80,26 +80,16 @@ $(function(){
     $('.bxslider').bxSlider({
             captions:true,
             //slideWidth:600,  //수정
-            auto:true,
+            auto:false,
             autoControls:false,
             stopAutoOnclick:true,
-
+ 
           });
-
-                 
   
-//이전 버튼을 클릭하면 이전 슬라이드로 전환됩니다.
-   /*$("#prevBtn").on("click",function(){
-    mySlider.goToPrevSlide();  //이전 슬라이드 배너로 이동됩니다.
-    return false; //<a>에 링크를 차단합니다.
-   });
-//다음 버튼을 클릭하면 다음 슬라이드로 전환됩니다.
-   $("#nextBtn").on("click",function(){
-    mySlider.goToNextSlide();  //다음 슬라이드 배너로 이동됩니다.
-    return false;
-   }); 
-    */
     
+    
+  
+
     
     
     //네비

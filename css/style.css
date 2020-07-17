@@ -13,7 +13,7 @@ src: url("font/NotoSansCJKkr-Black.otf") format("opentype");}
 
 
 *{padding: 0; margin: 0}
-.inner{max-width: 1294px; margin: 0 auto}
+.inner{max-width: 1280px; margin: 0 auto}
 ul{list-style: none}
 h1, h2, h3, h4, h5, h6{font-weight: normal}
 .space{clear: both}
@@ -283,7 +283,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 		}*/
 .event .panels{
 	background:#fff;
-	min-height:180px;
+
 }
 .event .panel{
 	
@@ -291,23 +291,39 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 	color:#4d4d4d;
 }
         
-.e_detail{ background-color: #196ab3; width:100%; height: 130px; border-radius:4px; position: relative; color: #fff; }
-.ribbon, .text_box, .sidebar, .download{float: left}
-.ribbon{position: absolute; left: -3px; bottom: -6px}
-.text_box{width: 70%; padding-left: 7%;box-sizing: border-box}
-.text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black}
-.text_box p{color: #a5bcda; font-size: 13px; padding-top: 21px;font-family: NotoSansCJKkr-Medium}
-.text_box p span:nth-child(1){padding-right:23px; }
-.sidebar{width: 1px; height: 90px; border-right: 1px solid #5792c8 ; opacity: 0.3; margin-top: 20px;margin-left: 5%}
-.download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: NotoSansCJKkr-Bold;}
-.tabs:after{content: '';display: block;clear: both}
+.e_detail{ background-color: #196ab3; width:100%; ; border-radius:4px; position: relative; color: #fff; }
+.mo_e_detail{ background-color: #196ab3; width:calc(100% - 20px); ; border-radius:4px; position: relative; color: #fff; margin:35px 10px 5px 10px; display: none }
+.mo_e_detail .ribbon,.mo_e_detail .text_box,.mo_e_detail .sidebar, .mo_e_detail .download{display: block}
+
+.mo_e_detail .sidebar{width: 80%; height: 1px; border-bottom: 1px solid #5792c8 ; opacity: 0.3; margin: 0 auto}
 
 
-.e_detail:after{content: '';display: block; clear: both}
+
+.mo_e_detail .text_box{;box-sizing: border-box}
+.mo_e_detail .text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black;text-align: center}
+.mo_e_detail .text_box p{color: #a5bcda; font-size: 12px; padding-top: 21px;font-family: 'NotoSansCJKkr-Medium';text-align: center;padding: 58px 0 28px 0}
 
 
-.service{width: 100%; height: ; background-color: #f8f8f8; color: #999999 ;font-family: NotoSansCJKkr-Medium}
-.icons {padding: 106px 0}
+.mo_e_detail .ribbon{position: absolute; left: -3px; bottom: -6px}
+
+.mo_e_detail .download{width: 100%; ; ; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';text-align: center; padding: 28px 0 }
+
+
+
+
+.e_detail .ribbon,.e_detail .text_box, .e_detail .sidebar,.e_detail .download{float: left}
+.e_detail .ribbon{position: absolute; left: -3px; bottom: -6px}
+.e_detail .text_box{width: 70%; padding-left: 7%;box-sizing: border-box}
+.e_detail .text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black}
+.e_detail .text_box p{color: #a5bcda; font-size: 13px; padding-top: 21px;font-family: NotoSansCJKkr-Medium}
+.e_detail .text_box p span:nth-child(1){padding-right:23px; }
+.e_detail .sidebar{width: 1px; height: 90px; border-right: 1px solid #5792c8 ; opacity: 0.3; margin-top: 20px;margin-left: 5%}
+.e_detail .download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';}
+
+
+
+.service{width: 100%; ; background-color: #f8f8f8; color: #999999 ;font-family: 'NotoSansCJKkr-Medium';margin:60px 0 0 0 }
+.service .icons {padding: 106px 0 }
 .icons li {width: 16%; text-align: center; float: left; }
 .icons li p{padding-bottom: 20px}
 
@@ -317,21 +333,27 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 .icons li:hover img{transform: scale(1.2)}
 /* 아이콘 트랜스폼 효과 끝*/
 
+
+
+
+
+
 .bestdownload h2{text-align: center; padding-top: 120px; font-size: 35px; color: #333333 ;font-family: NotoSansCJKkr-Bold;}
-.download_set{width:74% ; height: 496px; margin: 0 auto; padding-top: 50px; padding-bottom: 170px}
-.download_set div:nth-child(1), .download_set div:nth-child(2), .download_set div:nth-child(3){width:33.3%; float: left; ; padding-bottom: 149px}
+.download_set{width: 75% ; ; margin: 0 auto; padding-top: 50px; padding-bottom: 150px}
+.download_set div{float: left; padding: 0 4%;}
+.download_set div:nth-child(1){padding-left: 3%}
 .download_set div:nth-child(3){padding-right: 0}
 .download_set div h3{padding-top: 41px ; font-size: 21px;color: #333333;font-family: NotoSansCJKkr-Bold;}
-.download_set div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: NotoSansCJKkr-Regular }
+.download_set div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: 'NotoSansCJKkr-Regular' }
+.download_set:after{content: '';display: block; clear: both}    
 
-
-.magazine{width: 100%; height: 570px; background-image: url(../img/magazine_img.jpg) ; background-repeat: no-repeat; background-size: cover; background-position: center center;  color: #fff}
-.magazine h2 {font-size: 35px; text-align: center; padding-top: 110px;font-family: NotoSansCJKkr-Bold;}
-.magazine_set {width: 80% ;padding-top: 152px; margin: 0 auto}
+.magazine{width: 100%; background: url(../img/magazine.png) no-repeat  ; background-position: bottom; ; background-color: #196ab3;;  color: #fff}
+.magazine h2 {font-size: 35px; text-align: center; padding-top: 110px;font-family: 'NotoSansCJKkr-Bold';}
+.magazine_set {width: 80% ;padding: 140px 0 168px 0 ; margin: 0 auto; }
 .magazine_set div{width: 25% ; float: left; ; text-align: center}
 .magazine_set div:nth-child(4){padding-right: 0}
-.magazine_set div p{padding-top: 41px; font-size:20px; font-family: NotoSansCJKkr-Medium}
-
+.magazine_set div p{padding-top: 41px; font-size:20px; font-family: 'NotoSansCJKkr-Medium'}
+.magazine_set:after{content: '';display: block;clear: both}
 /* 매거진 트랜스폼 효과*/
 .magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
 .magazine_set>div:hover>i>img{transform: scale(1.2)}
@@ -340,20 +362,29 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 /*.preview{width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;color: #fff}*/
 /*.btn_set{width: 100%; text-align: center; padding-top: 87px;color: #fff}*/
 /*슬라이드 버튼 수정*/
+.preview{position: relative; }
+.preview>div{width: 100%; height:280px;  background-image: url(../img/preview_pc.jpg);background-repeat: no-repeat;background-position: center center}
+.preview>div>img{width: 100%}
 
-.btn_set{width: 100%; position: absolute; top:20%; text-align: center; /*right: 40%; left: 40%;*/ margin: 0 auto; color: #fff}
 
-.btn_set .name{font-size: 33px; ; font-family: NotoSansCJKkr-Regular}
-.btn_set .info{font-size:13px;  font-family: NotoSansCJKkr-Light}
 
-.notice p{width: 100%; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-family: NotoSansCJKkr-DemiLight;}
-.notice p span{ padding-right: 76px; color: #333333 }
+.btn_set{width: 100%;  ;position: absolute ;bottom: 20% ; color: #fff;text-align: center;  }
+
+.btn_set .name{font-size: 33px; ; font-family: 'NotoSansCJKkr-Regular'}
+.btn_set .info{font-size:13px;  font-family: 'NotoSansCJKkr-Light'}
+
+
+
+
+
+.notice p{width: 100%; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-family: 'NotoSansCJKkr-DemiLight';}
+.notice p span{width: 10% ; float: left; color: #333333 }
 
 
 
 #footer{width: 100%; background: #dfdfdf}
-#footer .top_footer {width:100%; }
-#footer .top_footer p{; float: left; padding: 35px 0 0 0; font-size: 12px;color: #999999; }
+#footer .top_footer {width:100%; margin: 0 auto}
+#footer .top_footer p{ float: left; padding: 35px 3% 0 0; font-size: 12px;color: #999999; text-align: center }
 #footer .top_footer:after{content: '';display: block; clear: both}
 
 #footer .bottom_footer{width: 100%;padding-top: 68px;}
@@ -474,7 +505,6 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 /*프리뷰 슬라이드 */
 
-.bxslider > div >img {width:100%;} /*수정*/
 
 
 /*.preview .bxslider>div:nth-child(1){width: 100%; height: 280px; background-image: url(../img/preview.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center}
@@ -505,27 +535,36 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 		list-style-type:none;
 	}
 
+.bestdownload h2{text-align: center; padding-top: 120px; font-size: 35px; color: #333333 ;font-family: NotoSansCJKkr-Bold;}
+.download_set{width: calc(100% - 20px) ; margin: 0 auto; padding-top: 50px; padding-bottom: 150px; box-sizing: border-box}
+.download_set div{width: calc((100% - 20px) /2); float: left; padding:0 10px}
+.download_set div img{width: 100%}
+.download_set div:nth-child(1){padding-left: 0}
+.download_set div:nth-child(2){padding-right:0}
+.download_set div:nth-child(3){padding-right: 0; display: none}
+.download_set div h3{padding-top: 41px ; font-size: 21px;color: #333333;font-family: NotoSansCJKkr-Bold;}
+.download_set div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: 'NotoSansCJKkr-Regular' }
+.download_set:after{content: '';display: block; clear: both}
 
-    .download_set div:nth-child(1), .download_set div:nth-child(2), .download_set div:nth-child(3){width:50%; float: left; ; padding-bottom: 149px}
-    
-    .download_set div:nth-child(3){display: none}
-    
 
-    .download_set div {width: 100%; margin: 0 } 
     
       #footer .bottom_footer{width: 100%;padding-top: 68px; display: none}
      #footer .mo_footer{display: block; }
 
+    
 
     
-    
+    .service{width: 100%; ; background-color: #f8f8f8; color: #999999 ;font-family: NotoSansCJKkr-Medium}
+.service .icons {padding:61px 0; }
+.service .icons li {width: 33.3%; text-align: center; float: left; padding: 39px 0}
+.service .icons li p{padding-bottom: 20px}
    
 }
 
 
 
 
-@media all and (max-width:740px){
+@media all and (max-width:768px){
 
       
     .top_header{width: 100%; height: 40px; font-size: 13px; color: #333333;font-family: NotoSansCJKkr-DemiLight;display: none}
@@ -543,8 +582,10 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 		list-style-type:none;
 	}
 
-    .download_set div:nth-child(1){width: 100%; margin: 0 auto}
-     .download_set div:nth-child(2){display: none}
+    
+    
+    
+
     
     
     .mo_bottom_header .mo_main{width: 100%; display: block}
@@ -556,32 +597,51 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 .icons li p{padding-bottom: 20px}
  
     
+
+    
+
+
+    .event .tabs .slick-slide img {
+      width:60%;
+        margin: 0 auto
+    }
     
     
     
+    .e_detail{ background-color: #196ab3; width:100%; ; border-radius:4px; position: relative; color: #fff; display: none}
+.mo_e_detail{ background-color: #196ab3; width:calc(100% - 20px); ; border-radius:4px; position: relative; color: #fff; margin:35px 10px 5px 10px; display: block}
     
-    
-.magazine_set {width: 80% ;padding-top: 152px; margin: 0 auto}
+.magazine{width: 100%; background: url(../img/mo_magazine.png) no-repeat  ; background-position: bottom; background-size: contain; background-color: #196ab3;;  color: #fff}
+.magazine h2 {font-size: 35px; text-align: center; padding-top:58px; font-family: 'NotoSansCJKkr-Bold';}
+.magazine_set {width: 100% ;padding: 68px 0 68px 0 ; margin: 0 auto; }
 .magazine_set div{width: 50% ; float: left; ; text-align: center}
-
-
+    .magazine_set div:nth-child(1),.magazine_set div:nth-child(2){padding-bottom: 57px}
+.magazine_set div:nth-child(4){padding-right: 0}
+.magazine_set div p{padding-top:30px; font-size:17px; font-family: 'NotoSansCJKkr-Medium'}
+    .magazine_set>div>i>img{width: 39px}
+.magazine_set:after{content: '';display: block;clear: both}
 /* 매거진 트랜스폼 효과*/
 .magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
 .magazine_set>div:hover>i>img{transform: scale(1.2)}
 /* 매거진 트랜스폼 효과 끝*/
     
     
-
     
+   .preview{position: relative; }
+.preview>div{width: 100%; height:266px;  background-image: url(../img/preview_mo.jpg); background-repeat: no-repeat;background-position: center center}
+.preview>div>img{width: 100%}
+
+
+
+.btn_set{width: 100%;  ;position: absolute ;bottom: 10% ; color: #fff;text-align: center;  }
+
+.btn_set .name{font-size: 33px; ; font-family: 'NotoSansCJKkr-Regular'}
+.btn_set .info{font-size:13px;  font-family: 'NotoSansCJKkr-Light'}
+
+
+ 
     
-
-
-    .event .tabs .slick-slide img {
-      width: 80%;
-        margin: 0 auto
-    }
-
-
+.notice p span{width: 15% ; float: left; color: #333333 }
 
 
 }

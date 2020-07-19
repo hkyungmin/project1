@@ -1,0 +1,170 @@
+
+
+/* sub_1 */
+.menu5{width:100% ; height: 44px; color: #a5a7aa;}
+.menu5 li{float: left; line-height: 44px; padding-right: 68px}
+.menu5 li i {padding-left: 5px; vertical-align: top}
+.menu5 li:nth-child(1){padding-left: 87px }
+.menu5 li:nth-child(3){padding-right: 0 }
+.menu5 li a{color: #a5a7aa;text-decoration: none;font-family: 'Noto Sans KR', sans-serif;font-weight: 300;font-size: 0.9rem;text-decoration: none}
+
+.advertise {width: 100%;height: 461px; background-color: #406150;; position: relative}
+.advertise .inner .ad_img1{position: absolute; top: 37px;left:  24%; right: 24%; margin: 0 auto; text-align: center}
+.advertise .inner .ad_img2{position: absolute; left: 16%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 16%; bottom: -4px}
+
+.advertise .inner .ad_img1 img{width: 100%}
+.advertise .inner .ad_img2 img{width: 100%}
+.advertise .inner .ad_img3 img{width: 100%}
+
+.ad_preview{width: 28%;position: absolute; bottom:-89px;left: 33%; right: 33%; margin: 0 auto}
+.ad_preview img{width: 100%}
+.start_btn{width: 80px; height: 79px;position: absolute;bottom:10px;left: 33%; right: 33%; margin: 0 auto }
+
+
+.sub_1_contents{;background-color: #f8f8f8}
+
+.reserve_title{; padding: 256px 0 21px 7px ;color: #333333;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 1.4rem; }
+.reserve_title li{float: left}
+.reserve_title li:nth-child(1){width: 33%}
+.reserve_title li:nth-child(2){width: 33%}
+.reserve_title li:nth-child(3){width: 15%; }
+.reserve_title li:nth-child(4){width: 18%; height: 22px; border: 1px solid #999999; font-size: 3px; line-height: 22px; text-align: center; background-color: #fff; color: #999999; box-sizing: border-box;}
+
+.reserve_title li:nth-child(4) i{padding-right: 17px;}
+.reserve_title li i img{vertical-align: middle}
+.reserve_title li:nth-child(4) a{color: #999;text-decoration: none;}
+
+.reserve img:last-child{display: none}
+.time img:last-child{display: none}
+.reserve img {width: 100%; margin-bottom: 7px}
+.time img {width: 100%; }
+
+.sub_1_contents h2{padding: 63px 0 21px 7px;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 1.4rem; }
+.card, .ticket{width: calc((100% - 44px) / 2);  background-color: #fff; border: 1px solid #999999; text-align: center;color: #333333}
+.card{float: left;margin-left: 7px;box-sizing: border-box}
+.ticket{float:right; margin-right: 7px;box-sizing: border-box}
+.card .set, .ticket .set{padding-top: 54px}
+
+.set h3{padding-top: 28px;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 1.2rem;}
+
+.set p{padding-top: 13px; ;font-family: 'Noto Sans KR', sans-serif;font-weight: 400;font-size: 0.9rem;}
+.s_btn1, .s_btn2{width: 108px; height: 40px; border: 1px solid #999999; margin: 0 auto ; margin-top: 30px;margin-bottom: 56px ;text-align: center; line-height: 40px;font-family: 'Noto Sans KR', sans-serif;font-weight: 400;font-size: 0.8rem;;}
+
+/* 할인혜택 롤오버 효과*/
+.s_btn1:hover, .s_btn2:hover{width: 108px; height: 40px; background-color: #6699cc; color: #fff; transition: all 0.3s}
+/* 할인혜택 롤오버 효과 끝*/
+
+
+
+.s_btn3{margin-top: 50px;padding-bottom: 120px}
+.s_btn3 p{width: 212px; height: 60px; background-color: #6699cc; color: #fff; line-height: 60px; text-align: center; margin: 0 auto; ; font-family: NotoSansCJKkr-Regular}
+
+@media (max-width:1400px){
+    .inner{width:calc (100% - 20px)}
+    
+    
+    
+    .advertise {width: 100%;height: 440px; background-color: #406150;; position: relative}
+.advertise .inner .ad_img1{position: absolute; top: 37px;left:  5%; right: 5%; margin: 0 auto; text-align: center}
+.advertise .inner .ad_img2{position: absolute; left: 8%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 8%; bottom: -4px}
+  
+        
+.ad_preview{width: 35%;position: absolute;bottom:-80px;left: 30%; right: 30%; margin: 0 auto}
+.ad_preview img{width: 100%}
+.start_btn{width: 80px; height: 79px;position: absolute;bottom:10px;left: 33%; right: 33%; margin: 0 auto }
+
+    
+}
+
+@media (max-width:1300px){
+    .inner{width:calc (100% - 20px)}
+    
+    
+    
+    .advertise {width: 100%;height: 400px; background-color: #406150;; position: relative}
+
+.advertise .inner .ad_img2{position: absolute; left: 5%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 5%; bottom: -4px}
+    .advertise .inner .ad_img1 img{width: 75%}
+    .advertise .inner .ad_img2 img{width: 80%}
+        .advertise .inner .ad_img3 img{width: 80%}
+.ad_preview{width: 35%;position: absolute;bottom:-85px;left: 30%; right: 30%; margin: 0 auto}
+
+.start_btn{width: 80px; height: 79px;position: absolute;bottom:10px;left: 33%; right: 33%; margin: 0 auto }
+
+    
+}
+
+
+@media (max-width:1100px){
+ 
+    
+    
+    .advertise {width: 100%;height: 380px; background-color: #406150;; position: relative}
+.advertise .inner .ad_img2{position: absolute; left: 10%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 7%; bottom: -4px}
+.ad_preview{width: 40%;position: absolute; bottom:-80px;left: 30%; right: 30%; margin: 0 auto}
+
+    
+.card, .ticket{width: calc((100% - 14px) / 2);background-color: #fff; border: 1px solid #999999; text-align: center;color: #333333}    
+    .card{border-right: none}
+.s_btn3 p{width : calc(100% - 14px); height: 60px; background-color: #6699cc; color: #fff; line-height: 60px; text-align: center; margin: 0 auto; ; font-family: NotoSansCJKkr-Regular}
+ 
+    
+}
+
+
+
+
+@media (max-width:950px){
+   
+    
+    
+
+.advertise .inner .ad_img2{position: absolute; left: 10%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 1%; bottom: -4px}
+
+
+   
+}
+
+@media (max-width:900px){
+   
+    
+    
+    
+    .advertise {width: 100%;height: 320px; background-color: #406150;; position: relative}
+.advertise .inner .ad_img2{position: absolute; left: 10%; bottom: -4px}
+.advertise .inner .ad_img3{position: absolute; right: 1%; bottom: -4px}
+.ad_preview{width: 45%;position: absolute; bottom: -55px; right: 30%; margin: 0 auto}
+
+
+   
+}
+
+@media (max-width:768px){
+  
+    
+    
+
+.advertise .inner .ad_img2{position: absolute; left: 2%; bottom: -4px; display: none}
+.advertise .inner .ad_img3{position: absolute; right: 0%; bottom: -4px; display: none}
+
+.ad_preview{width: 55%;position: absolute; bottom: -43px;left: 15%; right: 15%; margin: 0 auto}
+.reserve_title{font-size: 23px; padding: 240px 0 21px 7px ;color: #333333;font-family: NotoSansCJKkr-Medium }
+        .reserve img:first-child{display: none}
+.time img:first-child{display: none}
+
+    .reserve img:last-child{display: block}
+.time img:last-child{display: block}
+
+  .reserve_title{font-size: 14px; padding: 256px 0 21px 7px ;color: #333333;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 0.9rem;} 
+
+sub_1_contents h2{padding: 63px 0 21px 7px; font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 0.9rem;}
+
+
+
+   
+}

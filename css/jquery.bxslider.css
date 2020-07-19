@@ -4,7 +4,7 @@
 ===================================*/
 .bx-wrapper {
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 150px;/* 박스 겉 테두리 조정 */
   padding: 0;
   *zoom: 1;
   -ms-touch-action: pan-y;
@@ -12,7 +12,7 @@
 }
 .bx-wrapper img {
   max-width: 100%;
-  /*display: block;*/
+  display: block;
 }
 .bxslider {
   margin: 0;
@@ -24,24 +24,22 @@ ul.bxslider {
 .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
-
 }
 /** THEME
 ===================================*/
 .bx-wrapper {
-  /*-moz-box-shadow: 0 0 5px #ccc;
+ /* -moz-box-shadow: 0 0 5px #ccc;  박스 겉 테두리 조정
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-    background: #fff;*/
+  border: 5px solid #fff; */
+  background: #fff;
   
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px; /*페이저 바 위치 조정*/
   width: 100%;
-    display: none
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
@@ -54,31 +52,31 @@ ul.bxslider {
   left: 0;
   z-index: 2000;
 }
-/* PAGER */
+/* PAGER */ 
 .bx-wrapper .bx-pager {
   text-align: center;
   font-size: .85em;
   font-family: Arial;
   font-weight: bold;
   color: #666;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #999;
-  text-indent: -9999px;
+  background: orange; /* 페이저 선택된 외 페이지 컬러 입력*/
+  text-indent: -9999px; /* 들여쓰기,-9999pxor 9999px하면 화면밖으로 나가게됨 block의 형태에서만 사용이 가능함 html,css에서 블럭인지 확인  */
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 100px;
+  height: 3px;
   margin: 0 5px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #fff;
+  background: #666; /* 페이저 현재 페이지 컬러 입력 * 0 에서 f까지 0은 낮은 값 f는 높은값 000은 블랙 fff 흰색*/
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -116,7 +114,6 @@ ul.bxslider {
   height: 32px;
   text-indent: -9999px;
   z-index: 9999;
-    opacity: 0.2
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
@@ -165,11 +162,13 @@ ul.bxslider {
 /* IMAGE CAPTIONS */
 .bx-wrapper .bx-caption {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  /*bottom: 0;*/
+  top:100px;  /*캡션위치 , 크기 조정*/
+  left: 100px;
   background: #666;
   background: rgba(80, 80, 80, 0.75);
-  width: 100%;
+  width: 200px;
+  padding: 20px
 }
 .bx-wrapper .bx-caption span {
   color: #fff;
@@ -216,3 +215,28 @@ ul.bxslider {
   display:none
 }
 
+
+/*미니슬라이드수정*/
+#banner_wrap{width: 75.5%; margin: auto}
+
+
+@media all and (max-width: 1300px){
+    #banner_wrap{width: 80%; margin: auto}
+
+    
+    
+}
+
+@media all and (max-width: 1200px){
+    #banner_wrap{width: 56%; margin: auto}
+
+    
+    
+}
+
+@media all and (max-width: 768px){
+    #banner_wrap{width: 86%; margin: auto}
+
+
+    
+}

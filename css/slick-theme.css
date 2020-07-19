@@ -150,7 +150,7 @@ font-size: 30px; font-weight: bold;color: #333
 
 .slick-prev
 {
-    z-index: 999;
+    z-index: 99;
     left: -60px;
 }
 [dir='rtl'] .slick-prev

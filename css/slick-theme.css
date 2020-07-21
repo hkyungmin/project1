@@ -284,3 +284,46 @@ font-size: 30px; font-weight: bold;color: #333
 } 
     
 }
+
+@media all and (max-width:768px){
+    
+    .slick-prev
+{
+    z-index: 99;
+    left: -60px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: url(../img/mo_prev.png);
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -60px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: url(../img/mo_next.png);
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+    
+    
+    
+}

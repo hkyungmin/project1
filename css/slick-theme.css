@@ -290,7 +290,7 @@ font-size: 30px; font-weight: bold;color: #333
     .slick-prev
 {
     z-index: 99;
-    left: -60px;
+    left: -50px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -308,7 +308,7 @@ font-size: 30px; font-weight: bold;color: #333
 
 .slick-next
 {
-    right: -60px;
+    right: -50px;
 }
 [dir='rtl'] .slick-next
 {

@@ -194,7 +194,7 @@
 
 .mo_e_detail .ribbon{position: absolute; left: -3px; bottom: -6px}
 
-.mo_e_detail .download{width: 100%; ;;box-sizing: border-box;;text-align: center; padding: 28px 0 ; font-family: 'NotoSansCJKkr-Bold';font-size: 1.6rem;font-weight: 800}
+.mo_e_detail .download{width: 100%; ;;box-sizing: border-box;;text-align: center; padding: 28px 0 ; font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 800}
 
 
 
@@ -206,7 +206,7 @@
 .e_detail .text_box p{color: #a5bcda; ; padding-top: 21px;font-size: 0.75rem;font-weight: 400}
 .e_detail .text_box p span:nth-child(1){padding-right:23px; }
 .e_detail .sidebar{width: 1px; height: 90px; border-right: 1px solid #5792c8 ; opacity: 0.3; margin-top: 20px;margin-left: 5%}
-.e_detail .download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';font-size: 1.6rem;font-weight: 800}
+.e_detail .download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 800}
 .e_detail:after,.mo_e_detail:after{content: '';display: block; clear: both}
 
 
@@ -233,7 +233,7 @@
 .download_set{}
 
 
-.download_set li div h3{padding-top: 41px ; ;color: #333333;font-family: 'NotoSansCJKkr-Bold';font-size: 1.3rem;font-weight: 700}
+.download_set li div h3{padding-top: 41px ; ;color: #333333;;font-size: 1.3rem;font-weight: 700}
 .download_set li div p {padding-top: 26px;; line-height: 26px;color:#999999;;font-size: 0.8rem;font-weight:500 }
 
 .magazine{width: 100%; background: url(../img/magazine.png) no-repeat  ; background-position: bottom; ; background-color: #196ab3;;  color: #fff}
@@ -241,7 +241,7 @@
 .magazine_set {width: 80% ;padding: 140px 0 168px 0 ; margin: 0 auto; }
 .magazine_set div{width: 25% ; float: left; ; text-align: center}
 .magazine_set div:nth-child(4){padding-right: 0}
-.magazine_set div p{padding-top: 41px; font-family: 'NotoSansCJKkr-Bold';font-size: 1.2rem;font-weight: 700}
+.magazine_set div p{padding-top: 41px;;font-size: 1.2rem;font-weight: 700}
 .magazine_set:after{content: '';display: block;clear: both}
 /* 매거진 트랜스폼 효과*/
 .magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
@@ -352,7 +352,7 @@
     
 
     
-.service{width: 100%; ; background-color: #f8f8f8; color: #999999 ;font-family: 'NotoSansCJKkr-Medium';margin:30% 0 0 0 }
+.service{width: 100%; ; background-color: #f8f8f8; color: #999999 ;;margin:30% 0 0 0 }
 .service .icons {padding:61px 0; }
 .service .icons li {width: 33.3%; text-align: center; float: left; padding: 39px 0}
 .service .icons li p{padding-bottom: 20px}
@@ -407,12 +407,12 @@
     
   
 .magazine{width: 100%; background: url(../img/mo_magazine.png) no-repeat  ; background-position: bottom; background-size: contain; background-color: #196ab3;;  color: #fff}
-.magazine h2 {font-size: 35px; text-align: center; padding-top:58px; font-family: 'NotoSansCJKkr-Bold';}
+.magazine h2 {; text-align: center; padding-top:58px; ;}
 .magazine_set {width: 100% ;padding: 68px 0 68px 0 ; margin: 0 auto; }
 .magazine_set div{width: 50% ; float: left; ; text-align: center}
     .magazine_set div:nth-child(1),.magazine_set div:nth-child(2){padding-bottom: 57px}
 .magazine_set div:nth-child(4){padding-right: 0}
-.magazine_set div p{padding-top:30px; font-size:17px; font-family: 'NotoSansCJKkr-Medium'}
+.magazine_set div p{padding-top:30px;;font-size: 1.2rem;font-weight: 700}}
     .magazine_set>div>i>img{width: 39px}
 .magazine_set:after{content: '';display: block;clear: both}
 /* 매거진 트랜스폼 효과*/
@@ -429,9 +429,6 @@
 
 
 .btn_set{width: 100%;  ;position: absolute ;bottom: 10% ; color: #fff;text-align: center;  }
-
-.btn_set .name{font-size: 33px; ; font-family: 'NotoSansCJKkr-Regular'}
-.btn_set .info{font-size:13px;  font-family: 'NotoSansCJKkr-Light'}
 
 
  

@@ -56,7 +56,7 @@
 .poster_btn{padding-top: 50%}
 .poster_btn div {width: 150px; height: 50px; border: 1px solid #fff; text-align: center; line-height: 50px;  margin: 0 auto;margin-top: 2%}
 .poster_btn div:nth-child(1){margin-top: 0}
-.poster_btn div a{color: #fff;text-decoration: none;font-family: 'Noto Sans KR', sans-serif;font-weight: 300;font-size: 1rem}
+.poster_btn div a{color: #fff;text-decoration: none;;font-weight: 300;font-size: 1rem}
 
 /* 메인이미지 포스터 롤오버 효과 */
 .poster1, .poster2, .poster3, .poster4{position: relative; overflow: hidden;  }
@@ -70,7 +70,7 @@
 .event_title {padding-top: 111px; padding-bottom: 101px;position: relative; height: 34px}
 .event_title:before{width: 100%; height:2px; background-color: #333333; position: absolute; content: "";display: inline-block; top:127px}
 
-.event_title h2{ width: 20%; height: 34px; background-color: #fff; text-align: center; position: absolute; left: 0;right: 0; margin: 0 auto;font-family: 'Noto Sans KR', sans-serif;font-weight: 700;font-size: 2rem}
+.event_title h2{ width: 20%; height: 34px; background-color: #fff; text-align: center; position: absolute; left: 0;right: 0; margin: 0 auto;;font-weight: 700;font-size: 2rem; line-height: 34px}
 
 
 .event_set{width: 1051px; height: 504px;  ; padding-left: 126px}
@@ -188,13 +188,13 @@
 
 
 .mo_e_detail .text_box{;box-sizing: border-box}
-.mo_e_detail .text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black;text-align: center}
-.mo_e_detail .text_box p{color: #a5bcda; font-size: 12px; padding-top: 21px;font-family: 'NotoSansCJKkr-Medium';text-align: center;padding: 58px 0 28px 0}
+.mo_e_detail .text_box h2 {text-align: center; padding-top: 35px;; font-size: 1.3rem;font-weight: 700}
+.mo_e_detail .text_box p{color: #a5bcda; padding-top: 21px; font-size: 0.75rem;font-weight: 400;text-align: center;padding: 58px 0 28px 0}
 
 
 .mo_e_detail .ribbon{position: absolute; left: -3px; bottom: -6px}
 
-.mo_e_detail .download{width: 100%; ; ; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';text-align: center; padding: 28px 0 }
+.mo_e_detail .download{width: 100%; ;;box-sizing: border-box;;text-align: center; padding: 28px 0 ; font-family: 'NotoSansCJKkr-Bold';font-size: 1.6rem;font-weight: 800}
 
 
 
@@ -202,18 +202,18 @@
 .e_detail .ribbon,.e_detail .text_box, .e_detail .sidebar,.e_detail .download{float: left}
 .e_detail .ribbon{position: absolute; left: -3px; bottom: -6px}
 .e_detail .text_box{width: 70%; padding-left: 7%;box-sizing: border-box}
-.e_detail .text_box h2 {font-size: 22px; padding-top: 35px;font-family: NotoSansCJKkr-Black}
-.e_detail .text_box p{color: #a5bcda; font-size: 13px; padding-top: 21px;font-family: NotoSansCJKkr-Medium}
+.e_detail .text_box h2 {; padding-top: 35px;; font-size: 1.3rem;font-weight: 700}
+.e_detail .text_box p{color: #a5bcda; ; padding-top: 21px;font-size: 0.75rem;font-weight: 400}
 .e_detail .text_box p span:nth-child(1){padding-right:23px; }
 .e_detail .sidebar{width: 1px; height: 90px; border-right: 1px solid #5792c8 ; opacity: 0.3; margin-top: 20px;margin-left: 5%}
-.e_detail .download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';}
+.e_detail .download{width: 20%; padding-left: 5%; line-height: 130px; font-size: 26px;box-sizing: border-box;font-family: 'NotoSansCJKkr-Bold';font-size: 1.6rem;font-weight: 800}
 .e_detail:after,.mo_e_detail:after{content: '';display: block; clear: both}
 
 
-.service{width: 100%; ; background-color: #f8f8f8; color: #999999 ;font-family: 'NotoSansCJKkr-Medium'; }
+.service{width: 100%; ; background-color: #f8f8f8; color: #999999 ; }
 .service .icons {padding: 106px 0 }
 .icons li {width: 16%; text-align: center; float: left; }
-.icons li p{padding-bottom: 20px}
+.icons li p{padding-bottom: 20px;;font-size: 1rem;font-weight: 500}
 
 
 /* 아이콘 트랜스폼 효과*/
@@ -229,19 +229,19 @@
 #prevBtn{position:absolute;left:0;top:10px;display: none}
 #nextBtn{position:absolute;right:15px;top:10px;display: none}
 
-.bestdownload h2{text-align: center; padding-top: 120px;padding-bottom: 50px; font-size: 35px; color: #333333 ;font-family: NotoSansCJKkr-Bold;}
+.bestdownload h2{text-align: center; padding-top: 120px;padding-bottom: 50px; ; color: #333333 ;;font-size: 2rem;font-weight: 700}
 .download_set{}
 
 
-.download_set li div h3{padding-top: 41px ; font-size: 21px;color: #333333;font-family: NotoSansCJKkr-Bold;}
-.download_set li div p {padding-top: 26px; font-size: 14px; line-height: 26px;color:#999999;font-family: 'NotoSansCJKkr-Regular' }
+.download_set li div h3{padding-top: 41px ; ;color: #333333;font-family: 'NotoSansCJKkr-Bold';font-size: 1.3rem;font-weight: 700}
+.download_set li div p {padding-top: 26px;; line-height: 26px;color:#999999;;font-size: 0.8rem;font-weight:500 }
 
 .magazine{width: 100%; background: url(../img/magazine.png) no-repeat  ; background-position: bottom; ; background-color: #196ab3;;  color: #fff}
-.magazine h2 {font-size: 35px; text-align: center; padding-top: 110px;font-family: 'NotoSansCJKkr-Bold';}
+.magazine h2 {; text-align: center; padding-top: 110px;;font-size: 2rem;font-weight: 700;}
 .magazine_set {width: 80% ;padding: 140px 0 168px 0 ; margin: 0 auto; }
 .magazine_set div{width: 25% ; float: left; ; text-align: center}
 .magazine_set div:nth-child(4){padding-right: 0}
-.magazine_set div p{padding-top: 41px; font-size:20px; font-family: 'NotoSansCJKkr-Medium'}
+.magazine_set div p{padding-top: 41px; font-family: 'NotoSansCJKkr-Bold';font-size: 1.2rem;font-weight: 700}
 .magazine_set:after{content: '';display: block;clear: both}
 /* 매거진 트랜스폼 효과*/
 .magazine_set>div>i>img{transform: scale(1);transition: all 0.3s}
@@ -259,15 +259,15 @@
 
 .btn_set{width: 100%;  ;position: absolute ;bottom: 20% ; color: #fff;text-align: center;  }
 
-.btn_set .name{font-size: 33px; ; font-family: 'NotoSansCJKkr-Regular'}
-.btn_set .info{font-size:13px;  font-family: 'NotoSansCJKkr-Light'}
+.btn_set .name{; ;font-size: 2rem;font-weight: 500}
+.btn_set .info{ ;font-size: 0.8rem;font-weight: 300}
 
 
 
 
 
-.notice p{width: 100%; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-family: 'NotoSansCJKkr-DemiLight';}
-.notice p span{width: 10% ; float: left; color: #333333 }
+.notice p{width: 100%; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-size: 0.9rem;font-weight: 300}
+.notice p span{width: 10% ; float: left; color: #333333 ;font-weight: 500}
 
 
 

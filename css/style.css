@@ -252,7 +252,7 @@
 /*.btn_set{width: 100%; text-align: center; padding-top: 87px;color: #fff}*/
 /*슬라이드 버튼 수정*/
 .preview{position: relative; }
-.preview>div{width: 100%; height:280px;  background-image: url(../img/preview.jpg);background-repeat: no-repeat;background-position: center center}
+.preview>div{width: 100%; height:280px;  background-image: url(../img/preview.jpg);background-repeat: no-repeat;}
 .preview>div>img{width: 100%}
 
 
@@ -423,7 +423,7 @@
     
     
    .preview{position: relative; }
-.preview>div{width: 100%; height:266px;  background-image: url(../img/preview_mo.jpg); background-repeat: no-repeat;background-position: center center}
+.preview>div{width: 100%; height:266px;  background-image: url(../img/preview_mo.jpg); background-repeat: no-repeat;}
 .preview>div>img{width: 100%}
 
 

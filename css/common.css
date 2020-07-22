@@ -124,9 +124,9 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 .mo_bottom_header .mo_wmain .mo_wsub li:hover a{color: #fff}
 
 
-#wrap_head .wrap_logo{font-size: 0.9rem;font-family: 'Noto Sans KR', sans-serif;font-weight:200}
+#wrap_head .wrap_logo{font-size: 0.9rem;font-family: 'Noto Sans KR', sans-serif;font-weight:200; position: relative; left: -10%}
 
-
+#wrap_head .wrap_logo p{padding-left: 70px; position: absolute; top:10px}
 
 
 

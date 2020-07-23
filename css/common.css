@@ -65,7 +65,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 /****** 모바일 메뉴**************/
 .mo_bottom_header{display: none; width: 100%;  position: absolute; z-index: 999}
-.mo_bottom_header>div .logo{float: right; width: 66%}
+.mo_bottom_header>div .logo{float: right; width: 70%}
  .mo_bottom_header>div .open1{ float: left}
 .mo_bottom_header>div:after{content: '';display: block;clear: both}
 .mo_bottom_header>div .logo img{margin: 16px 0 ;}

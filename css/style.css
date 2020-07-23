@@ -367,6 +367,10 @@
       
     
        .poster1, .poster2, .poster3, .poster4{position: relative; overflow: hidden; margin: 60% 0 }
+    
+    
+    .event .tabSet.inner{width: 100% ; overflow-x: hidden}
+    
       .event .tab .slick-slide img {
       width: 70%;
     }

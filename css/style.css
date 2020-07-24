@@ -266,7 +266,7 @@
 
 
 
-.notice p{width: 100%; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-size: 0.9rem;font-weight: 300}
+.notice p{; height: 80px;margin: 0 auto; font-size: 14px;line-height: 80px; color: #999999; padding-left: 6px;font-size: 0.9rem;font-weight: 300}
 .notice p span{width: 10% ; float: left; color: #333333 ;font-weight: 500}
 
 
@@ -364,13 +364,13 @@
 
 @media all and (max-width:768px){
 
-    body{overflow-x: hidden}    
+      
     
        .poster1, .poster2, .poster3, .poster4{position: relative; overflow: hidden; margin: 60% 0 }
     
     
-    .event .tabSet.inner{width: 100% ; overflow-x: hidden}
-    
+   
+    .event .tab .slick-slide{width: 100%; overflow-x: hidden}
       .event .tab .slick-slide img {
       width: 70%;
     }

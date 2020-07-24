@@ -69,7 +69,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
  .mo_bottom_header>div .open1{ float: left}
 .mo_bottom_header>div:after{content: '';display: block;clear: both}
 .mo_bottom_header>div .logo img{margin: 16px 0 ;}
-.mo_bottom_header>div .open1 {width: 21px; height: 50px;margin-left: 1%;;top:0; display: block}
+.mo_bottom_header>div .open1 {width: 21px; height: 50px;margin-left: 3%;;top:0; display: block}
 .mo_bottom_header  .open1 span{width: 21px; height: 2px ; background-color: #fff; float: left; margin-top: 31px ; }
 .mo_bottom_header .open1 span:nth-child(1){margin-top:21px;}
 .mo_bottom_header .open1 span:nth-child(2){margin-top:5px;}
@@ -210,7 +210,7 @@ nav.bottom_header .submenu li:after{content: ''; display: block; clear: both}
 
 @media all and (max-width:768px){
 
-          body{overflow-x: hidden}
+      
     
     .back{ width: 100%; height: 96px; background-color: #196ab3;position: none; top:0px}
 

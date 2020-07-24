@@ -388,7 +388,7 @@ font-size: 30px; font-weight: bold;color: #333
 }
 .slick-prev:before
 {
-    content: url(../img/mo_prev.png);
+    content: url(../img/mo2_prev.png);
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -406,7 +406,7 @@ font-size: 30px; font-weight: bold;color: #333
 }
 .slick-next:before
 {
-    content: url(../img/mo_next.png);
+    content: url(../img/mo2_next.png);
 }
 [dir='rtl'] .slick-next:before
 {

@@ -364,7 +364,7 @@
 
 @media all and (max-width:768px){
 
-      
+    body{overflow-x: hidden}    
     
        .poster1, .poster2, .poster3, .poster4{position: relative; overflow: hidden; margin: 60% 0 }
     
